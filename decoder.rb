@@ -23,3 +23,5 @@ def decode_sentence(sentence)
   sentence.split('   ').each { |char| new_sentence += "#{decode_word(char)} " }
   new_sentence
 end
+
+puts decode_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
